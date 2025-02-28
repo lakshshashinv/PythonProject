@@ -111,9 +111,18 @@ def Logafter():
                     decrypted_value = cipher_suite.decrypt(decrypted_value)
                     dec = decrypted_value.decode()
                     print("Decrypted value: ",dec)
-                
-             
+                if dec_info == 'y':
+                    fname2 = input("Enter file name you want to save as: ")
+                    fd2 = open(fname2, 'w')
+                    msg = fd1.read()
+                    decrypted_value = msg
+                    decrypted_value = cipher_suite.decrypt(decrypted_value)
+                    dec = decrypted_value.decode()
+                    fd2.write(dec)
+                    fd2.close()
+
                 fd1.close()
+                
                 
 
         else:
