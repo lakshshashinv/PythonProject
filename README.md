@@ -1,7 +1,7 @@
-# Python-Project
-This repo contains python project only!!!
+# ENCDEC-Project
+This repo contains project related to encryption and decryption only!!!
 
 Debug :
-File decryption not working(unable to read from file and decrypt).
+(PYTHON VERSION) - File decryption not working(unable to read from file and decrypt).
 
 
