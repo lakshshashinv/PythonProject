@@ -156,7 +156,7 @@ void menu(char *username) {
 int main() 
 {
     char username[Maxlen], password[Maxlen];
-    load_users();
+    //load_users();---does not work if database file not present, to use wihtout database file - let it be under comments
     printf("Username: ");
     scanf("%s", username);
     printf("Password: ");
